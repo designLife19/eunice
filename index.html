@@ -1,0 +1,562 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>EHK_Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/eunice.css" />
+    <link rel="stylesheet" href="assets/css/pr.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('.readMore').click(function() {
+					$('.detailMe').slideToggle();
+					/*$('.readMore').css('color', '#f1666b');*/
+					$('.readMore i').toggleClass('fa-angle-down fa-angle-up')
+				});
+
+				$('.progectsBox').find('section').addClass('projectImgDiv');
+			});
+			</script>
+
+
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+
+				<!--01. START NavBar-->
+				<nav class="navbar navbar-expand-md bg-pink navbar-dark fixed-top">
+					  <!-- Logo-->
+					  <div class="navbar-brand">Eunice Haeun Kim</div>
+
+					  <!-- Toggler/collapsibe Button -->
+					  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+					    <i class="fas fa-bars"></i>
+					  </button>
+
+					  <!-- Navbar links -->
+					  <div class="navbar-collapse collapse" id="collapsibleNavbar">
+					    <ul class="navbar-nav ml-auto">
+					      <li class="nav-item">
+					        <a class="nav-link" href="index.html">Home</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="#aboutMe">About Me</a>
+					      </li>
+								<li class="nav-item dropdown">
+	                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+	                  Case Studies
+	                </a>
+	                <div class="dropdown-menu">
+	                  <a class="dropdown-item" href="#caseStudy1">Case study 01</a>
+	                  <a class="dropdown-item" href="#caseStudy2">Case study 02</a>
+										<a class="dropdown-item" href="#caseStudy3">Case study 03</a>
+	                </div>
+	              </li>
+								<li class="nav-item">
+								 <a class="nav-link" href="#projects">Projects</a>
+							 </li>
+							 <li class="nav-item">
+								<a class="nav-link" href="#gallery">Others</a>
+							</li>
+								<li class="nav-item">
+					        <a class="nav-link" href="#contact">Contact</a>
+					      </li>
+					    </ul>
+					  </div>
+
+					</nav>
+				<!--01. END NavBar-->
+				<!--Top Main Image -->
+					<div class="topImg">
+						<img src="img/computer_main.jpg" />
+					</div>
+				<!-- 02. START Section 1 - Intro -->
+					<section class="intro banner style1 fullscreen" id="aboutMe">
+
+						<div class="content">
+							<h1>Hi, my name is Eunice (Haeun) Kim</h1>
+							<p class="major">I am a UX / UI designer with a deep passion for understanding how technology impacts people’s behavior and influences their habits.</p>
+							<div class="readMore">More about me <span><i class="fas fa-angle-down"></i></span></div>
+							<div class="detailMe">
+								<p>
+									I’m who enjoys working with people in a fast-paced and detail-oriented environment. <br /><br />
+									I have 5 years of experience as a UX/ UI designer and 8 years of experience as a graphic designer.
+                  <br/><br />
+                  I have been involved in various projects in UI/UX development for web-based software for the past Five years.
+									And I enjoys working with people in a fast-paced and detail-oriented environment.<br />
+                  My main tasks were designing and developing interactive prototypes and mockups using Sketch, Illustrator, Photoshop, also
+									created degital high-fidelity prototypes with HTML, CSS, and jQuery for future enhancements of the website.
+                  Also working with the development team to correct any UI problems or HTML/CSS issues.
+                  Furthermore, creating icons, fonts and using them in illustrator and Photoshop, then implementing them with HTML and CSS.
+									<br/><br />
+                  I have developed a wide range of forward-thinking user interface software, which have all improved user experience, and
+                  this has aided my proficient knowledge in the process and responsibilities of this position.
+									And I am comfortable working with a project based environment, working through a SDLC in Agile methodology, and defining and refining requirements
+                  from users and other stakeholders.
+                  <br><br>
+                  I would like to meet you to discuss my work experience.
+                  Please feel free to contact me in case you need more information or seek clarification.
+								</p>
+							</div>
+							<ul class="actions stacked">
+								<li><a href="#caseStudy1" class="button big wide smooth-scroll-middle">Case Studies</a></li>
+							</ul>
+						</div>
+					</section>
+					<!-- 02. END Section 1 - Intro -->
+
+
+
+				<!-- 03. START Section 2 - Case Study - r2Cow -->
+				<section id="caseStudy1">
+					<div class="cs_container">
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-5 cs_img">
+									<img src="img/caseStudy/TN_rc.jpg" class="w100"/>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-7 cs_text">
+								<div class="logo"><img src="img/logo_rc.png" class="w100" alt=" Logo" /></div>
+								<h2>Application UX / UI</h2>
+								<p>
+									R2Cow is a web-based eBidding application for Buyer of the biddingo.com.
+									Biddingo.com is an online portal that connects suppliers providing various goods and services to buyers
+									from the Provincial, Municipal, Education, Crown Corporation, Housing, Construction and Healthcare sectors
+									and Private companies from across Canada.
+									<!--<br />
+									R2cow is a web application for only Buyers, public and private alike, throughout Canada advertise RFPs, RFQs, RFIs, etc.
+									and distribute their documents on Biddingo.com daily. They have access to detailed reports such as invitation lists,
+									document taker's lists, mandatory site meetings, amendment notices, bid results, awarded contracts, etc. Biddingo.com
+									assists buyers with fulfilling their purchasing requirements.
+									<br />
+									I was involved as a UX / UI designer for the application.-->
+								</p>
+								<ul class="cs_viewBtn">
+									<li>
+											<a href="cs_rc.html" class="button">
+												View Case Study
+												<i class="fas fa-caret-right ml_5"></i>
+											</a>
+									</li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				<!-- 03. END Section 2 - Case Study - r2Cow -->
+
+
+				<!-- 04. START Section 3 - Case Study - drSongApp-->
+				<section id="caseStudy2">
+					<div class="cs_container">
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-5 cs_img">
+									<img src="img/caseStudy/TN_ds.jpg" class="w100"/>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-7 cs_text">
+								<div class="logo"><img src="img/logo_drSong.png" class="w100" alt=" Logo" /></div>
+								<h2>Application UX/ UI Design / Front-End</h2>
+								<p>
+									DrSongApp is the web and mobile application for admin and teachers and students of Dr.song Square Academy.
+									<!--I was involved as UX/UI designer and a front-End developer for this project. -->
+								</p>
+								<ul class="cs_viewBtn">
+									<li>
+											<a href="cs_ds.html" class="button">
+												View Case Study
+												<i class="fas fa-caret-right ml_5"></i>
+											</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- 04. END Section 3 - Case Study - drSongApp-->
+
+
+				<!-- 05. START Section 4 - Case Study - eResponse-->
+				<section id="caseStudy3">
+					<div class="cs_container">
+						<div class="row">
+							<div class="col-sm-12 col-md-6 col-lg-5 cs_img">
+									<img src="img/caseStudy/TN_eR.jpg" class="w100"/>
+							</div>
+							<div class="col-sm-12 col-md-6 col-lg-7 cs_text">
+								<div class="logo"><img src="img/logo_eR.png" class="w100" alt=" Logo" /></div>
+								<h2>Application UX/ UI Design</h2>
+								<p>
+									eResponse is web application for helping vendors to submit electric bid form.
+									e-BidForm is used for e-Bidding purposes. When an e-BidForm is completed and the bid is submitted to the owner,
+									they can import it directly into their compatible software. Using e-BidForm allows for electronic submission of bids.
+								</p>
+								<ul class="cs_viewBtn">
+									<li>
+											<a href="cs_eR.html" class="button">
+												View Case Study
+												<i class="fas fa-caret-right ml_5"></i>
+											</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- 05. END Section 4 - Case Study - eResponse-->
+
+
+
+          <!-- 06. START Section - Projects -->
+          <!-- Portfolio Grid Section -->
+          <section id="projects">
+            <div class="col-sm-12 center">
+              <h2>Projects</h2>
+              <p>
+                Application UX / UI Projects, Responsive Website Design, Landing Pages, Email Templates, e-Banners and e-Brochure.
+                <br /><span style="font-style: italic; font-size: 12px">Mouseover and Click Images to see the details.</span>
+              </p>
+            </div>
+
+          	<div class="thumb_pj_container" id="pjDiv">
+                  <div class="row">
+                      <!-- 06-1. r2cow UI-->
+											<div class="col-sm-12 col-md-6 project_item">
+                         <a href="pj_rc.html" class="project_link">
+                             <div class="thumb">
+                                 <div class="thumb-content">
+                                   <div class="title">
+     																	<h3>R2Cow Application <br />UX / UI Projects</h3>
+     																	<ul class="actions">
+     																		<li><span class="button small">Details</span></li>
+     																	</ul>
+   																</div>
+                                 </div>
+                             </div>
+                             <img src="img/projects/TN_rc.jpg" alt="" class="w100"/>
+                         </a>
+                         <div class="center">
+                           <h5>R2Cow Application UX / UI Projects</h5>
+                         </div>
+                     </div>
+
+                     <!-- 06-2. chicagobethel.com-->
+                     <div class="col-sm-12 col-md-6 project_item">
+                        <a href="pj_cbc.html" class="project_link">
+                            <div class="thumb">
+                                <div class="thumb-content">
+                                  <div class="title">
+                                      <h3>Responsive Website</h3>
+                                      <ul class="actions">
+                                        <li><span class="button small">Details</span></li>
+                                      </ul>
+                                  </div>
+                                </div>
+                            </div>
+                            <img src="img/projects/TN_bethel.jpg" alt="Chicago Bethel Church" class="w100" />
+                        </a>
+                        <div class="center">
+                          <h5>chicagobethel.com Responsive Website</h5>
+                        </div>
+                    </div>
+
+	                  <!-- 06-3. Landing Page-->
+	                  <div class="col-sm-12 col-md-6 project_item" id="lpDiv">
+	                     <a href="pj_lp.html" class="project_link">
+	                         <div class="thumb">
+	                             <div class="thumb-content">
+	                               <div class="title">
+	                                   <h3>Landing Pages</h3>
+	                                   <ul class="actions">
+	                                     <li><span class="button small">Details</span></li>
+	                                   </ul>
+	                               </div>
+	                             </div>
+	                         </div>
+	                         <img src="img/projects/TN_landingP.jpg" alt="Landing Page" class="w100"/>
+	                     </a>
+	                     <div class="center">
+	                       <h5>Landing Pages</h5>
+	                     </div>
+	                 </div>
+
+	                 <!-- 06-4. Email Templates -->
+	                 <div class="col-sm-12 col-md-6 project_item">
+	                    <a href="pj_eT.html" class="project_link">
+	                        <div class="thumb">
+	                            <div class="thumb-content">
+	                              <div class="title">
+	                                  <h3>Email Templates</h3>
+	                                  <ul class="actions">
+	                                    <li><span class="button small">Details</span></li>
+	                                  </ul>
+	                              </div>
+	                            </div>
+	                        </div>
+	                        <img src="img/projects/TN_eT_1.jpg" alt="Email Templates" class="w100"/>
+	                    </a>
+	                    <div class="center">
+	                      <h5>Email Templates</h5>
+	                    </div>
+	                </div>
+
+									<!-- 06-5. e-Brochure / e-Chart -->
+									<div class="col-sm-12 col-md-6 project_item" id="ebecDiv">
+										 <a href="pj_ebec.html" class="project_link">
+												 <div class="thumb">
+														 <div class="thumb-content">
+															 <div class="title">
+																	 <h3>e-Chart / e-Brochure</h3>
+																	 <ul class="actions">
+																		 <li><span class="button small">Details</span></li>
+																	 </ul>
+															 </div>
+														 </div>
+												 </div>
+												 <img src="img/projects/TN_eBeC.jpg" alt="e-Brochure/ e-Chart" class="w100"/>
+										 </a>
+										 <div class="center">
+											 <h5>e-Brochure/ e-Chart</h5>
+										 </div>
+								 	</div>
+
+	                <!-- 06-6. Missha Website Design -->
+	                <div class="col-sm-12 col-md-6 project_item">
+	                   <a href="pj_msh.html" class="project_link">
+	                       <div class="thumb">
+	                           <div class="thumb-content">
+	                             <div class="title">
+	                                 <h3>MISSHA <br />e-Banner/ Landing Page</h3>
+	                                 <ul class="actions">
+	                                   <li><span class="button small">Details</span></li>
+	                                 </ul>
+	                             </div>
+	                           </div>
+	                       </div>
+	                       <img src="img/projects/TN_missha.jpg" alt="Misshas" class="w100"/>
+	                   </a>
+	                   <div class="center">
+	                     <h5>MISSHA e-Banner/ Landing Page</h5>
+	                   </div>
+	               </div>
+
+	               <!-- 06-7. Debbie Website Design -->
+	               <div class="col-sm-12 col-md-6 project_item" id="dbDiv">
+	                  <a href="pj_db.html" class="project_link">
+	                      <div class="thumb">
+	                          <div class="thumb-content">
+	                            <div class="title">
+	                                <h3>DEBBIE Landing Pages</h3>
+	                                <ul class="actions">
+	                                  <li><span class="button small">Details</span></li>
+	                                </ul>
+	                            </div>
+	                          </div>
+	                      </div>
+	                      <img src="img/projects/TN_debbie.jpg" alt="Debbie" class="w100"/>
+	                  </a>
+	                  <div class="center">
+	                    <h5>DEBBIE Landing Pages</h5>
+	                  </div>
+	              </div>
+
+	              <!-- 06-8. Sweeite Website Design -->
+	              <div class="col-sm-12 col-md-6 project_item">
+	                 <a href="pj_swt.html" class="project_link">
+	                     <div class="thumb">
+	                         <div class="thumb-content">
+	                           <div class="title">
+	                               <h3>Online Shopping Website</h3>
+	                               <ul class="actions">
+	                                 <li><span class="button small">Details</span></li>
+	                               </ul>
+	                           </div>
+	                         </div>
+	                     </div>
+	                     <img src="img/projects/TN_sweetie.jpg" alt="Online Shopping Website" class="w100"/>
+	                 </a>
+	                 <div class="center">
+	                   <h5>Online Shopping Website Landing Page</h5>
+	                 </div>
+	             </div>
+
+							 <!-- 06-9. DrSongApp-->
+								 <div class="col-sm-12 col-md-6 project_item">
+										 <a href="cs_ds.html" class="project_link">
+												 <div class="thumb">
+														 <div class="thumb-content">
+															 <div class="title">
+																 <h3>drSongApp Application UX / UI</h3>
+																 <!--<p>Lorem ipsum dolor amet, consectetur magna etiam elit. Etiam sed ultrices.</p>-->
+																 <ul class="actions">
+																	 <li><span class="button small">Details</span></li>
+																 </ul>
+															 </div>
+														 </div>
+												 </div>
+												 <img src="img/projects/TN_ds.jpg" alt="drSongApp" class="w100" />
+										 </a>
+										 <div class="center">
+											 <h5>drSongApp Application UX / UI</h5>
+										 </div>
+								 </div>
+
+								 <!-- 06-10. eResponse-->
+								 <div class="col-sm-12 col-md-6 project_item">
+										<a href="cs_eR.html" class="project_link">
+												<div class="thumb">
+														<div class="thumb-content">
+															<div class="title">
+																	<h3>eResponse Application UI</h3>
+																	<ul class="actions">
+																		<li><span class="button small">Details</span></li>
+																	</ul>
+															</div>
+														</div>
+												</div>
+												<img src="img/projects/TN_eR.jpg" alt="" class="w100"/>
+										</a>
+										<div class="center">
+											<h5>eResponse Application UI</h5>
+										</div>
+									</div>
+	           </div>
+					 </div>
+         </section>
+					<!-- 06. END Section - Projects -->
+
+
+
+
+
+					<!-- 08. START Section - Other Projects Gallery - graphics-->
+
+						<section id="gallery">
+							<div class="galleryDiv">
+                <div class="center">
+                  <h2>Other Projects</h2>
+  								<p>
+                    Graphic Design Projects - Advertising on Magazine, Flyer and Leaflet Design, Banners, Fashion Catalogues,
+                    Music Album and posters.
+  									<br /><span style="font-style: italic; font-size: 12px">Mouseover or Click Images to see the details.</span>
+                  </p>
+                </div>
+
+							<!-- Gallery -->
+								<div class="gallery style2 medium lightbox">
+									<article>
+										<a href="gl_bb.html" class="image">
+											<img src="img/projects/TN_brochure.jpg" alt="" />
+										</a>
+										<div class="caption">
+											<h3>Brochure & Banners</h3>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+
+									<article>
+										<a href="gl_fs.html" class="image">
+											<img src="img/projects/TN_fashion.jpg" alt="" />
+										</a>
+										<div class="caption">
+											<h3>Fashion Catalogues</h3>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+
+									<article>
+										<a href="gl_ad.html" class="image">
+											<img src="img/projects/TN_advertising_2.jpg" alt="" />
+										</a>
+										<div class="caption">
+											<h3>Advertising on Magazine</h3></h3>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+
+									<article>
+										<a href="gl_fl.html" class="image">
+											<img src="img/projects/TN_flyers.jpg" alt="" />
+										</a>
+										<div class="caption">
+											<h3>Flyers & Leaflets</h3>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+
+									<article>
+										<a href="gl_m.html" class="image">
+											<img src="img/projects/TN_music.jpg" alt="" />
+										</a>
+										<div class="caption">
+											<h3>Music Album & Posters</h3>
+											<ul class="actions fixed">
+												<li><span class="button small">Details</span></li>
+											</ul>
+										</div>
+									</article>
+								</div>
+              </div>
+
+						</section>
+					<!-- 08. END Section - Gallery -->
+
+				<!-- 09. START CONTACT SECTION -->
+					<section class="wrapper style1 align-center" id="contact">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<p style="margin-top:0; padding-top:0"> Here is my contact info and a link to get in touch. </p>
+							<div class="getInTouch">
+								<ul>
+										<li><i class="fas fa-user"></i>Eunice Haeun Kim</li>
+										<li><i class="fas fa-envelope"></i><a href="mailto:eunisk7@gmail.com">eunisk7@gmail.com</a></li>
+										<li><i class="fas fa-home"></i>Toronto, ON, Canada</li>
+										<li>
+											<i class="fas fa-file-pdf"></i>
+												<a href="img/contact/Eunice_H_Kim_Resume.pdf" target="_blank">Resume Download</a>
+													 <!-- <a href="img/Eunice_Resume_gray.pdf">&nbsp; Resume Download</a>-->
+										</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+					<!-- 09. END CONTACT SECTION -->
+
+				<!-- 10. START Footer -->
+					<footer class="center footer_bg">
+						<div>
+							<p>&copy; 2020 Eunice's Portfolio. Design by Eunice Haeun Kim</p>
+						</div>
+					</footer>
+
+			</div>
+			<!-- 10. END Footer -->
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
