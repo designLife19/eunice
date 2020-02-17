@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>EHK_Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/eunice.css" />
+    <link rel="stylesheet" href="assets/css/caseSt.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!--01. START NavBar-->
+      <nav class="navbar navbar-expand-sm bg-pink navbar-dark fixed-top">
+          <!-- Logo-->
+          <div class="navbar-brand">Eunice Haeun Kim</div>
+
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-expanded="false">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="navbar-collapse collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#aboutMe">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Case Studies
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item current" href="#">Case study 01</a>
+                  <a class="dropdown-item" href="cs_ds.html">Case study 02</a>
+                  <a class="dropdown-item" href="cs_eR.html">Case study 03</a>
+                </div>
+              </li>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="index.html#projects">Projects</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link" href="index.html#gallery">Others</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      <!--01. END NavBar-->
+
+      <!--02. START Main Top Image-->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <img src="img/caseStudy/rc_main.jpg" class="w100"/>
+          </div>
+        </div>
+      <!--02. END Main TOp Image-->
+
+      <!--03. START Section - Overview -->
+        <section class="cs_container">
+          <div class="contents">
+            <div class="csHeader">
+              <h3>Overview</h3>
+            </div>
+            <div class="csBody">
+              <p>
+                R2Cow is a web-based eBidding application for Buyer of the biddingo.com. Biddingo.com is an online portal that connects
+                suppliers providing various goods and services to buyers from the Provincial, Municipal, Education, Crown Corporation,
+                Housing, Construction and Healthcare sectors and Private companies from across Canada.
+                <br /><br />
+                R2cow is a web application for only Buyers, public and private alike, throughout Canada advertise RFPs, RFQs, RFIs, etc.
+                and distribute their documents on Biddingo.com daily. They have access to detailed reports such as invitation lists,
+                document taker's lists, mandatory site meetings, amendment notices, bid results, awarded contracts, etc. Biddingo.com
+                assists buyers with fulfilling their purchasing requirements.
+                <br /><br />
+                I was involved as a UX / UI designer for the application. And This case study is about built a new version of dashboard.
+              </p>
+            </div>
+          </div>
+        </section>
+      <!--03. END Section - Overview -->
+
+      <!--04. START Section - My Role -->
+        <section class="cs_container">
+          <div class="contents">
+            <div class="csHeader">
+              <h3>My Role</h3>
+            </div>
+            <div class="role">
+              <div class="roleBox_s">UX / UI Design</div>
+              <div class="roleBox_l">Low to High-Fidelity Prototype</div>
+              <div class="roleBox_l">HTML /CSS/ JQery Coding</div>
+            </div>
+          </div>
+        </section>
+      <!--04. START Section - My Role -->
+
+      <!--05. START Section - Problem & Solving -->
+        <section class="cs_container">
+          <div class="contents">
+            <div class="csHeader">
+              <h3>Problem & Solving</h3>
+            </div>
+            <div class="csBody">
+              <div class="body_header">Problem Statement</div>
+              <p>
+                One of biggest challenges was how to create Dashboard UX / UI design that would satisfy users of all ages.
+                <br /><br />
+                The existing some older users wanted to see all the data and information in the dashboard. For example.
+                Update Notices, view all Bid lists and to-do List, and Work in Progress List on the same page.
+                Also all list have included task, description, created date, progress history as well.
+                They wanted to keep the UX / UI design because it was very familiar with it.
+                <br /><br />
+                On the other hand, Younger users wanted to customize their own personal dashboard simply and clearly so that
+                they could see what exactly they wanted.
+
+                And our team agree with them. Because We reallized that the original dashboard is so complex to find the
+                right data at once.
+              </p>
+              <div class="cs_image">
+                <div class="imgBox">
+                  <img src="img/caseStudy/cs_rc_1.jpg"/>
+                  <p>Original Version Dashboard View</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- solving-->
+            <div class="csBody">
+              <div class="body_header">Solving</div>
+              <p>
+                Our team decided to have two different versions of dashboard. One is to keep the existing version.
+                The other one is individual dashboard so that user can choose the dashboard by themselves.
+                <br /><br />
+                To built new Individual dashboard UX/ UI, I first started serching the web to get better ideas and had to focus on
+                how to display the status of each task simply and clearly.
+                Since I realized that a dashboard with all the information is a big part of the interaction,
+                displaying the details for each item would clutter the screen.
+                After trying different views, meeting the team, sharing ideas and getting advice, I developed card view dashboard
+                mockups and prototypes.
+                Cards act as containers for clickable information: bite-sized previews to help users find the content they want.
+                The card acts as a container of clickable information. It serves as a bite-sized preview to make it easier
+                for users to find what they're looking for.
+                <br /><br />
+                Here are the workflows.
+              </p>
+            <!-- mockup 01-->
+              <div class="cs_description">
+                <p class="title">Mock-up 01. Individual Card View with progress bar</p>
+                <p>
+                  I have created card view dashboard mock-up which displays only the projects selected by user.
+                  I was trying to indicate the status of each bid by progress bar for helping user to understand where they are,
+                  what the next step is.
+                  <br /><br />
+                  However, our developer team did not agree with to using progress bar to display the status all of each bids.
+                  This is because technical issues may arise if users create a lot of bidding projects.
+                  We also received feedback that if it is happened, the card dashboard will be to complicate again.
+                  After that, I spent a lot of time with the developers to avoid discord between design and development
+                  is to communicate early and often.
+                </p>
+              </div>
+              <div class="cs_image">
+                <div class="imgBox">
+                  <img src="img/caseStudy/cs_rc_2.jpg"/>
+                  <p>Mock-up 01. Individual Card View with progress bar</p>
+                </div>
+              </div>
+            <!--mockup 02 -->
+              <div class="cs_description">
+                <p class="title">Develope Individual Card with step icon and links</p>
+                <p>
+                  After meeting with developer team, I had to think other way to make it simple and clear to show each status / stage instead of
+                  progress bar. Then I shared the idea using simple colours. Each card displays their own status with a colour icon
+                  on the top left corner and displays the project title and basic information.
+                  It also displays the last link the user was on to help them navigate directly to the page
+                  before they signed out. Also added a navigation bar icon that displays a list of other steps and links for
+                  easy navigation.
+                </p>
+              </div>
+              <div class="cs_image">
+                <div class="imgBox">
+                  <img src="img/caseStudy/cs_rc_13.jpg"/>
+                  <p>Individual Card view with step icon and links</p>
+                </div>
+              </div>
+            <!--03. How to display selected card view-->
+            <div class="cs_description">
+              <p class="title">How to display selected card view</p>
+              <p>
+                All cards are shown by default. But the user can display the card view with the selected stage.
+              </p>
+            </div>
+            <div class="cs_image">
+              <div class="imgBox">
+                <img src="img/caseStudy/cs_rc_4.jpg"/>
+              </div>
+            </div>
+            <!-- 04. Displays how to create own card-->
+            <div class="cs_description">
+              <p class="title">Displays how to create a new project card</p>
+              <p>
+                I insert clickable box with ‘New’ icon which is default at the first time.
+                To begin the card dashboard, click and select the project.
+              </p>
+            </div>
+            <div class="cs_image">
+              <div class="imgBox">
+                <img src="img/caseStudy/cs_rc_5.jpg"/>
+              </div>
+            </div>
+
+            <!-- 05.-->
+            <div class="cs_description">
+              <p class="title">Easy to search bids through the search bar.</p>
+              <p>
+                I used blockUI to display the list of the project. Click the menu to see a list of bids.
+                And serchbox allows user to easily browse the list and select the checkboxes to display on their own dashboard.
+                Developer team agree with the search bar on the list.
+              </p>
+            </div>
+            <div class="cs_image">
+              <div class="imgBox">
+                <img src="img/caseStudy/cs_rc_6.jpg"/>
+              </div>
+            </div>
+
+            <!-- 06.-->
+            <div class="cs_description">
+              <p class="title">Displays main menus</p>
+              <p>
+                I have created a bid menu button on each card to lead users to easily and simply visit different pages of the bid.
+                It was created to avoid clicking through many pages to find one page.
+                The menu icon helps the user to avoid confusion while finding relevant pages for each bid they want.
+            </div>
+            <div class="cs_image" style="margin-bottom: 2rem">
+              <div class="imgBox">
+                <img src="img/caseStudy/cs_rc_15.jpg"/>
+                <img src="img/caseStudy/cs_rc_9.jpg"/>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+      <!--05. END Section - Problem & Solving -->
+
+      <!--06. START Section - Results -->
+        <section class="cs_container">
+          <div class="contents">
+            <div class="csHeader">
+              <h3>Results</h3>
+            </div>
+            <div class="csBody">
+              <p>
+                The individual card view dashboard have been adopted and embedded in r2cow Buyer application.
+                And our team received good feedback from users on User Group meeting.
+              </p>
+            </div>
+          </div>
+        </section>
+      <!--06. END Section - Results -->
+
+      <!-- 07. Other Project button-->
+      <section class="cs_container">
+        <div class="contents">
+          <div class="moreBtn">
+            <a href="pj_rc.html" class="btn_more">See More R2Cow UI Projects</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- START Footer -->
+      <footer class="center footer_bg">
+        <div>
+          <p>&copy; 2020 Eunice's Portfolio. Design by Eunice Haeun Kim</p>
+        </div>
+      </footer>
+
+    </div>
+
+
+
+    <!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+  </body>
+</html>
