@@ -264,13 +264,13 @@ section.pj_wrapper {
   }
 }
 
+
 /* See Other Project Button */
 .btn_more {
     box-shadow: inset 0px 1px 0px 0px #7ad12e;
     background: linear-gradient(to bottom, #93cc0e 5%, #41800e 100%);
     background-color: #93cc0e;
     border-radius: 6px;
-    border: 1px solid #87c227;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -278,7 +278,6 @@ section.pj_wrapper {
     font-size: 16px;
     padding: 9px 20px;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #66a11e;
 }
 
 .moreBtn {
@@ -286,12 +285,31 @@ section.pj_wrapper {
 }
 
 .btn_more:hover {
-	background:linear-gradient(to bottom, #41800e 5%, #93cc0e 100%);
-	background-color:#41800e;
+	background: #2b7108;
   color: #fff;
 }
 
 .btn_more:active {
 	position:relative;
 	top:1px;
+}
+
+
+a.btn_green {
+    background: linear-gradient(to bottom, #165ea9 5%, #0d3f73 100%);
+    background-color: #165ea9;
+    border-radius: 6px;
+    /* border: 1px solid #0d74bc; */
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    padding: 9px 20px;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+}
+
+a.btn_green:hover {
+    background: #0a3765;
 }
