@@ -364,7 +364,7 @@ ul.cs_viewBtn li a.button:hover {
 /* Media Query - caseStudy */
 @media (min-width: 1200px) {
   .cs_container {
-    padding: 40px 70px;
+    padding: 30px 70px;
   }
 }
 

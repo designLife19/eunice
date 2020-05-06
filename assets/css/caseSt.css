@@ -67,8 +67,8 @@
 }
 
 .csBody p {
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 /* My Role */
@@ -104,12 +104,32 @@
   float: left;
 }
 
+.dsRole .roleBox_m {
+  border: 1px solid #264d87;
+  background-color: #264d87;
+  color: #fff;
+}
+
+.dsRole .roleBox_l {
+  border: 1px solid #264d87;
+  background-color: #264d87;
+  color: #fff;
+}
+
 .csBody .body_header {
   font-size: 17px;
   border-left: 10px solid #333;
+  border-bottom: 1px dotted #333;
   padding: 0 0 0 8px;
-  margin-bottom: 10px;
+  margin: 25px 0;
+  font-weight: 400;
 }
+
+.csBody.dsBody .body_header {
+  border-left: 10px solid #264d87 !important;
+  border-bottom: 1px dotted #264d87;
+}
+
 
 /* problem & Solving */
 .cs_image {
@@ -188,11 +208,11 @@
 }
 
 .csBody.dsBody p {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .csBody p.solvingList {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .cs_image_m {
@@ -256,7 +276,7 @@ p.withLIst {
     }
 
     .cs_container .contents {
-			padding: 4rem 4rem !important;
+			padding: 3.5rem 3.5rem !important;
 		}
 }
 
@@ -274,7 +294,7 @@ p.withLIst {
     }
 
     .cs_container .contents {
-			padding: 4rem 4rem !important;
+			padding: 3.5rem 3.5rem !important;
 		}
 }
 
@@ -286,4 +306,20 @@ p.withLIst {
   .cs_image .imgBox {
     width: 85%;
   }
+}
+
+.mT130 {
+  margin-top: 130px;
+}
+
+.mT100 {
+  margin-top: 100px !important;
+}
+
+.mT0 {
+  margin-top: 0px;
+}
+
+.mT25 {
+  margin-top: 25px;
 }
