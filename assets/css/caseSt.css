@@ -116,6 +116,24 @@
   color: #fff;
 }
 
+.rcRole .roleBox_s {
+  border: 1px solid #549509;
+  background-color: #549509;
+  color: #fff;
+}
+
+.rcRole .roleBox_m {
+  border: 1px solid #549509;
+  background-color: #549509;
+  color: #fff;
+}
+
+.rcRole .roleBox_l {
+  border: 1px solid #549509;
+  background-color: #549509;
+  color: #fff;
+}
+
 .csBody .body_header {
   font-size: 17px;
   border-left: 10px solid #333;
@@ -128,6 +146,11 @@
 .csBody.dsBody .body_header {
   border-left: 10px solid #264d87 !important;
   border-bottom: 1px dotted #264d87;
+}
+
+.csBody.rcBody .body_header {
+    border-left: 10px solid #53950a !important;
+    border-bottom: 1px dotted #53950a;
 }
 
 
@@ -150,6 +173,11 @@
   border:1px solid #ccc;
   box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
   width: 100%;
+}
+
+.cs_image .imgBox img.pieChart {
+  border: none;
+  box-shadow: none !important;
 }
 
 .cs_description .title {
@@ -276,7 +304,8 @@ p.withLIst {
     }
 
     .cs_container .contents {
-			padding: 3.5rem 3.5rem !important;
+      padding: .5rem .5rem !important;
+			/*padding: 3.5rem 3.5rem !important;*/
 		}
 }
 
@@ -309,7 +338,7 @@ p.withLIst {
 }
 
 .mT130 {
-  margin-top: 130px;
+  margin-top: 130px !important;
 }
 
 .mT100 {
@@ -321,5 +350,9 @@ p.withLIst {
 }
 
 .mT25 {
-  margin-top: 25px;
+  margin-top: 25px !important;
+}
+
+.mT150 {
+  margin-top: 150px;
 }
