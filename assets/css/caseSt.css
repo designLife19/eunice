@@ -180,6 +180,12 @@
   box-shadow: none !important;
 }
 
+.prototyping .imgBox img {
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+  width: 100%;
+}
+
 .cs_description .title {
     text-decoration: underline;
     margin-bottom: 5px;
@@ -355,4 +361,21 @@ p.withLIst {
 
 .mT150 {
   margin-top: 150px;
+}
+
+.cs_image_w ul.ds_subT {
+  margin: 0;
+  width: 82%;
+}
+
+.cs_image_w ul.ds_subT li {
+  font-style: italic;
+  padding: 0;
+  border-bottom: 1px dotted #284c87;
+}
+
+p.ds_subT {
+    margin: 0px 0px 20px 20px !important;
+    width: 81%;
+    font-style: italic;
 }
