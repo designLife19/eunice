@@ -328,6 +328,11 @@ ul.actions {
   width: 100px;
 }
 
+.cs_container div.cs_text .logo img.logo_SM {
+  width: 150px;
+  margin-left: -15px;
+}
+
 .cs_container div.cs_text h2 {
   font-size: 30px;
   margin-bottom: 7px;
