@@ -13,3 +13,7 @@ div.smBody p span.sm_subT {
 .cs_image {
     margin-bottom: 0;
 }
+
+.cs_container .contents {
+  padding: 0px !important;
+}
