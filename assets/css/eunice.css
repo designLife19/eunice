@@ -166,6 +166,10 @@ a.dropdown-item.current:hover {
 
 
 /* 03. Section 1 - Introduction Me */
+.jumbotron.jumbotron-fluid {
+  padding: 0;
+}
+
 section.intro {
   margin-top: -10px;
 }
