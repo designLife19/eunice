@@ -311,6 +311,10 @@ ul.actions {
   padding: 15px 30px 5px 30px;
 }
 
+section.cs_container .contents {
+    margin: 20px 100px !important;
+}
+
 .cs_container div.cs_img {
     padding: 20px 20px 0 20px;
 }
@@ -374,7 +378,7 @@ ul.cs_viewBtn li a.button:hover {
 /* Media Query - caseStudy */
 @media (min-width: 1200px) {
   .cs_container {
-    padding: 30px 70px;
+    padding: 50px 100px;
   }
 }
 
