@@ -64,3 +64,9 @@ div.smBody ui.smList li {
     border: none;
     box-shadow: none;
 }
+
+@media (max-width: 576px) {
+  .cs_image_w .imgBox {
+      width: 100%;
+  }
+}
