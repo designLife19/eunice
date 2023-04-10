@@ -23,5 +23,5 @@ section.sm_container .contents div.csHeader {
 }
 
 section.sm_container div.smHeader {
-  padding-top: 50px;
+  padding-top: 80px !important;
 }
