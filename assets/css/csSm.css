@@ -77,6 +77,10 @@ div.smBody ui.smList li {
   border-bottom: none !important;
 }
 
+.sm_container .contents {
+  padding-top: 0 !important;
+}
+
 
 
 @media (max-width: 576px) {
