@@ -26,7 +26,7 @@ section.sm_container div.smHeader {
   padding-top: 80px !important;
 }
 
-div.smBody p.subH {
+div.smBody span.subH {
   font-weight: bold;
   color: #FF8C11;
   margin-bottom: 0;
