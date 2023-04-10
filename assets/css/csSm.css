@@ -51,6 +51,10 @@ div.smBody p span.subT {
   font-weight: 400;
 }
 
+div.smBody p.criteriaT {
+  margin-bottom: 0!important;
+}
+
 div.smBody ui.smList li {
   display: inline-block;
 }
