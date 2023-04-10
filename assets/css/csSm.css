@@ -33,9 +33,9 @@ div.smHeader h3 {
 }
 
 div.smBody span.subH {
-  font-weight: bold;
-  color: #FF8C11;
+  font-weight: 500;
   margin-bottom: 0;
+  border-bottom: 1px solid #969696;
 }
 
 div.smBody div.body_header {
