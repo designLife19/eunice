@@ -73,6 +73,10 @@ div.smBody ui.smList li {
   margin-top: 0px;
 }
 
+.cs_container {
+  border-bottom: none !important;
+}
+
 
 
 @media (max-width: 576px) {
