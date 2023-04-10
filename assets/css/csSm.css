@@ -110,3 +110,9 @@ section.cs_container.sm_container {
   }
 
 }
+
+@media (max-width: 576px) {
+  .cs_container.sm_container .contents {
+      padding-top: 0px !important;
+  }
+}
