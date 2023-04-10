@@ -17,3 +17,7 @@ div.smBody p span.sm_subT {
 .cs_container .contents {
   padding: 40px 0px !important;
 }
+
+section.sm_container .contents div.csHeader {
+  padding-top: 40px;
+}
