@@ -69,4 +69,10 @@ div.smBody ui.smList li {
   .cs_image_w .imgBox {
       width: 100%;
   }
+
+  .cs_image_w .imgBox.animate {
+    width: 50% !important;
+    margin: 0 25%;
+  }
+
 }
