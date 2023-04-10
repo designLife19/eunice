@@ -29,7 +29,7 @@ section.sm_container div.smHeader {
 div.smHeader h3 {
   border-left: 15px solid #F29A3B !important;
   border-bottom: 1px dotted #969696;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 div.smBody span.subH {
