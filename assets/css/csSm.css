@@ -31,6 +31,10 @@ div.smBody p.subH {
   color: #FF8C11;
 }
 
+div.smBody div.body_header {
+  padding-top: 80px;
+}
+
 div.smBody p span.subT {
   font-weight: 400;
 }
