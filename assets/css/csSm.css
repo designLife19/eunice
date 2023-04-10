@@ -29,6 +29,7 @@ section.sm_container div.smHeader {
 div.smBody p.subH {
   font-weight: bold;
   color: #FF8C11;
+  margin-bottom: 0;
 }
 
 div.smBody div.body_header {
