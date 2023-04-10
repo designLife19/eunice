@@ -39,3 +39,7 @@ div.smBody div.body_header {
 div.smBody p span.subT {
   font-weight: 400;
 }
+
+div.smBody ui.smList li {
+  display: inline-block;
+}
