@@ -74,8 +74,9 @@ div.smBody ui.smList li {
   margin-top: 0px;
 }
 
-.cs_container {
-  border-bottom: none !important;
+section.cs_container.sm_container {
+    border-bottom: none !important;
+    padding: 0px 100px;
 }
 
 .sm_container .contents {
