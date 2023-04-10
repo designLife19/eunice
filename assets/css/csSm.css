@@ -58,3 +58,7 @@ div.smBody p.criteriaT {
 div.smBody ui.smList li {
   display: inline-block;
 }
+
+.cs_image_w div.animate {
+  width: 20%;
+}
