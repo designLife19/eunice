@@ -62,3 +62,7 @@ div.smBody ui.smList li {
 .cs_image_w div.animate {
   width: 20%;
 }
+
+.cs_image_w div.animate img {
+  border: none;
+}
