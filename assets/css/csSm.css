@@ -42,6 +42,11 @@ div.smBody div.body_header {
   margin-top: 70px;
 }
 
+div.smBody p.criteriaT {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
 div.smBody p span.subT {
   font-weight: 400;
 }
