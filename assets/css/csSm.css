@@ -108,6 +108,11 @@ section.cs_container.sm_container {
     margin-left: 0px;
   }
 
+  section.cs_container.sm_container {
+      border-bottom: none !important;
+      padding: 0px !important;
+  }
+
 }
 
 @media (min-width: 576px) {
