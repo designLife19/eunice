@@ -100,7 +100,7 @@ section.cs_container.sm_container {
   }
 
   .cs_image_w .imgBox.animate {
-      width: 20% !important;
+      width: 50% !important;
       float: left;
   }
 
