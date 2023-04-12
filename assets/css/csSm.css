@@ -123,7 +123,7 @@ section.cs_container.sm_container {
   }
 
   section.sm_container div.smHeader {
-    padding-top: 0px;
+    padding-top: 0px !important;
   }
 }
 
