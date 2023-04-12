@@ -114,7 +114,7 @@ section.cs_container.sm_container {
   }
 
   .cs_image_w .imgBox.animate img {
-    margin-left: 0px;
+    margin-left: 50px !important;
   }
 
   section.cs_container.sm_container {
