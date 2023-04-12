@@ -18,6 +18,15 @@ div.smBody p span.sm_subT {
   padding-top: 40px;
 }*/
 
+.hero-image {
+  background-image: url("img/caseStudy/sm_main_02.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 section.sm_container div.smHeader {
   padding-top: 100px !important;
 }
