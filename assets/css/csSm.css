@@ -127,6 +127,10 @@ section.cs_container.sm_container {
   }
 }
 
+.sm_footer_bg {
+  margin-top: 100px;
+}
+
 @media (min-width: 576px) {
   .cs_container.sm_container .contents {
       padding-top: 0px !important;
